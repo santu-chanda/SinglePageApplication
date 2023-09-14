@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./banner.jpeg);
+    height: 100%;
+}
+
+/* navbar design */
+.headerSection nav {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding-top: 2.2rem;
+    /* padding-left: 0.8rem; */
+}
+
+.headerSection nav div {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #06065ea1;
+}
+
+.headerSection nav div a {
+    font-size: 1rem;
+    color: black;
+    padding: 0 0.6rem;
+}
+
+/* navbar design */
+
+/* main section */
+.headerSection main {
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.headerSection main>div {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-transform: uppercase;
+    padding-top: 18rem;
+}
+
+.headerSection main .block {
+    margin: 0.8rem 0;
+}
+
+.headerSection main h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: #3f67e8;
+}
+
+.headerSection main p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 2.3rem;
+}
+
+.headerSection main a {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+    color: black;
+}
+
+.headerSection main .subscribe {
+    color: red;
+}
+
+.headerSection .portfolioSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #20ea20;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13rem;
+    padding: 0;
+    height: 10vh;
+    width: 20%;
+}
+
+.headerSection .portfolioSection p {
+    padding: 0;
+}
+.headerSection article{
+    margin: 2rem 3rem;
+}
+
+.headerSection article .artSection{
+    display: flex;                 
+}
+.headerSection article .artSection img{
+    width: 30%;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.loadmore{
+    text-align: center;
+}
+.loadmore a{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.headerSection .contactus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #173bb0;
+    border-top: 2px solid #0e0b0b;
+    border-bottom: 2px solid #0d0c0c;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13rem;
+    padding: 0;
+    height: 10vh;
+    width: 230px;
+}
+
+.headerSection .contactus p {
+    padding: 0;
+}
+.headerSection section{
+     margin-top: 3rem;
+     height: 49vh;
+     margin-left: 1.3rem;
+     margin-right:1.3rem ;
+     border-bottom: 2px solid black;
+}
+
+.headerSection section table{
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding: 0.7rem;
+}
+.headerSection section table td{
+    border: 1px solid black;
+    padding: 0.4rem;
+}
+.headerSection section table button{
+    padding: 0.2rem;
+}
+
+footer{
+    margin-top: 4rem;
+    text-align: center;
+   
+}
+footer a{
+    color: red;
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-decoration: underline black 1px;
+}
+footer p{
+    font: bold;
+    font-size: 1.2rem;
+}
